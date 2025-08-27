@@ -1,4 +1,4 @@
-# VPN妈妈 | 8月25日19.4M/S|免费V2ray/Shadowrocket/Clash/SSR节点推荐，在线VPN机场梯子购买推荐  更新时间 2025-08-25 22:25:25
+# VPN妈妈 | 8月27日19.5M/S|免费V2ray/Shadowrocket/Clash/SSR节点推荐，在线VPN机场梯子购买推荐  更新时间 2025-08-27 10:05:28
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpnmama.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpnmama.github.io/uploads/2025/08/0-20250825.yaml
-- https://vpnmama.github.io/uploads/2025/08/1-20250825.yaml
-- https://vpnmama.github.io/uploads/2025/08/2-20250825.yaml
-- https://vpnmama.github.io/uploads/2025/08/3-20250825.yaml
-- https://vpnmama.github.io/uploads/2025/08/4-20250825.yaml
+- https://vpnmama.github.io/uploads/2025/08/0-20250827.yaml
+- https://vpnmama.github.io/uploads/2025/08/1-20250827.yaml
+- https://vpnmama.github.io/uploads/2025/08/2-20250827.yaml
+- https://vpnmama.github.io/uploads/2025/08/3-20250827.yaml
+- https://vpnmama.github.io/uploads/2025/08/4-20250827.yaml
 
 ### V2ray订阅链接
 
-- https://vpnmama.github.io/uploads/2025/08/0-20250825.txt
-- https://vpnmama.github.io/uploads/2025/08/1-20250825.txt
-- https://vpnmama.github.io/uploads/2025/08/2-20250825.txt
-- https://vpnmama.github.io/uploads/2025/08/3-20250825.txt
-- https://vpnmama.github.io/uploads/2025/08/4-20250825.txt
+- https://vpnmama.github.io/uploads/2025/08/0-20250827.txt
+- https://vpnmama.github.io/uploads/2025/08/1-20250827.txt
+- https://vpnmama.github.io/uploads/2025/08/2-20250827.txt
+- https://vpnmama.github.io/uploads/2025/08/3-20250827.txt
+- https://vpnmama.github.io/uploads/2025/08/4-20250827.txt
 
 ### Sing-box订阅链接
 
-- https://vpnmama.github.io/uploads/2025/08/20250825.json
+- https://vpnmama.github.io/uploads/2025/08/20250827.json
 
 ## 更多clash节点订阅 ：
 
