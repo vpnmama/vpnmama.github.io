@@ -1,878 +1,346 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
 <head>
-    <meta charset="UTF-8">
-    <title>System Error</title>
-    <meta name="robots" content="noindex,nofollow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <style>
-        /* Base */
-        body {
-            color: #333;
-            font: 14px Verdana, "Helvetica Neue", helvetica, Arial, 'Microsoft YaHei', sans-serif;
-            margin: 0;
-            padding: 0 20px 20px;
-            word-break: break-word;
-        }
-        h1{
-            margin: 10px 0 0;
-            font-size: 28px;
-            font-weight: 500;
-            line-height: 32px;
-        }
-        h2{
-            color: #4288ce;
-            font-weight: 400;
-            padding: 6px 0;
-            margin: 6px 0 0;
-            font-size: 18px;
-            border-bottom: 1px solid #eee;
-        }
-        h3.subheading {
-            color: #4288ce;
-            margin: 6px 0 0;
-            font-weight: 400;
-        }
-        h3{
-            margin: 12px;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        abbr{
-            cursor: help;
-            text-decoration: underline;
-            text-decoration-style: dotted;
-        }
-        a{
-            color: #868686;
-            cursor: pointer;
-        }
-        a:hover{
-            text-decoration: underline;
-        }
-        .line-error{
-            background: #f8cbcb;
-        }
+        <link rel="canonical" href="https://vpnmama.github.io/free-nodes/2025-9-19-node-share.htm" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>VPN妈妈 | 9月19日20.3M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，在线VPN机场梯子购买推荐 - VPN妈妈 订阅中文网</title>
+        <meta name="keywords" content="9月19日Clash订阅链接, SSR订阅, Shadowrocket订阅链接VPN妈妈 订阅中文网" />
+        <meta name="description" content="9月19日节点订阅更新,SSR/V2ray/Shadowrocket/Clash免费节点订阅链接,我们专注免费节点每天更新,这一次的节点更新覆盖了韩国、欧洲、美国、新加坡、日本、香港、加拿大等地区,最高速度可达20.3 M/S。只需复制下方的Clash/v2ray订阅链接,在客户端添加后即可正常使用。" />
+        <link rel="icon" href="/assets/website/img/freeclashmeta/favicon.ico" type="image/x-icon"/>
 
-        .echo table {
-            width: 100%;
-        }
+    <meta name="author" content="VPN妈妈 订阅中文网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://vpnmama.github.io/free-nodes/2025-9-19-node-share.htm" />
+    <meta property="og:site_name" content="VPN妈妈 订阅中文网" />
+    <meta property="og:title" content="VPN妈妈 | 9月19日20.3M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，在线VPN机场梯子购买推荐 - VPN妈妈 订阅中文网" />
+    <meta property="og:image" content="https://vpnmama.github.io/uploads/20240729-1/93f2f71b40eb9998178acf1a9cb625dc.webp" />
+        <meta property="og:release_date" content="2025-09-19T09:48:15" />
+    <meta property="og:updated_time" content="2025-09-19T09:48:15" />
+        <meta property="og:description" content="9月19日节点订阅更新,SSR/V2ray/Shadowrocket/Clash免费节点订阅链接,我们专注免费节点每天更新,这一次的节点更新覆盖了韩国、欧洲、美国、新加坡、日本、香港、加拿大等地区,最高速度可达20.3 M/S。只需复制下方的Clash/v2ray订阅链接,在客户端添加后即可正常使用。" />
+        
+    <!-- web fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <!-- //web fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="/assets/website/css/freeclashmeta/style-starter.css">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
 
-        .echo pre {
-            padding: 16px;
-            overflow: auto;
-            font-size: 85%;
-            line-height: 1.45;
-            background-color: #f7f7f7;
-            border: 0;
-            border-radius: 3px;
-            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-        }
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="VPN妈妈 | 9月19日20.3M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，在线VPN机场梯子购买推荐 - VPN妈妈 订阅中文网">
+    <meta name="format-detection" content="telephone=no">
 
-        .echo pre > pre {
-            padding: 0;
-            margin: 0;
-        }
-        /* Layout */
-        .col-md-3 {
-            width: 25%;
-        }
-        .col-md-9 {
-            width: 75%;
-        }
-        [class^="col-md-"] {
-            float: left;
-        }
-        .clearfix {
-            clear:both;
-        }
-        @media only screen 
-        and (min-device-width : 375px) 
-        and (max-device-width : 667px) { 
-            .col-md-3,
-            .col-md-9 {
-                width: 100%;
-            }
-        }
-        /* Exception Info */
-        .exception {
-            margin-top: 20px;
-        }
-        .exception .message{
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-bottom: 0 none;
-            line-height: 18px;
-            font-size:16px;
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-            font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
-        }
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SG2GKVJW1Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        .exception .code{
-            float: left;
-            text-align: center;
-            color: #fff;
-            margin-right: 12px;
-            padding: 16px;
-            border-radius: 4px;
-            background: #999;
-        }
-        .exception .source-code{
-            padding: 6px;
-            border: 1px solid #ddd;
-
-            background: #f9f9f9;
-            overflow-x: auto;
-
-        }
-        .exception .source-code pre{
-            margin: 0;
-        }
-        .exception .source-code pre ol{
-            margin: 0;
-            color: #4288ce;
-            display: inline-block;
-            min-width: 100%;
-            box-sizing: border-box;
-        font-size:14px;
-            font-family: "Century Gothic",Consolas,"Liberation Mono",Courier,Verdana;
-            padding-left: 56px;
-        }
-        .exception .source-code pre li{
-            border-left: 1px solid #ddd;
-            height: 18px;
-            line-height: 18px;
-        }
-        .exception .source-code pre code{
-            color: #333;
-            height: 100%;
-            display: inline-block;
-            border-left: 1px solid #fff;
-        font-size:14px;
-            font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
-        }
-        .exception .trace{
-            padding: 6px;
-            border: 1px solid #ddd;
-            border-top: 0 none;
-            line-height: 16px;
-        font-size:14px;
-            font-family: Consolas,"Liberation Mono",Courier,Verdana,"微软雅黑";
-        }
-        .exception .trace ol{
-            margin: 12px;
-        }
-        .exception .trace ol li{
-            padding: 2px 4px;
-        }
-        .exception div:last-child{
-            border-bottom-left-radius: 4px;
-            border-bottom-right-radius: 4px;
-        }
-
-        /* Exception Variables */
-        .exception-var table{
-            width: 100%;
-            margin: 12px 0;
-            box-sizing: border-box;
-            table-layout:fixed;
-            word-wrap:break-word;            
-        }
-        .exception-var table caption{
-            text-align: left;
-            font-size: 16px;
-            font-weight: bold;
-            padding: 6px 0;
-        }
-        .exception-var table caption small{
-            font-weight: 300;
-            display: inline-block;
-            margin-left: 10px;
-            color: #ccc;
-        }
-        .exception-var table tbody{
-            font-size: 13px;
-            font-family: Consolas,"Liberation Mono",Courier,"微软雅黑";
-        }
-        .exception-var table td{
-            padding: 0 6px;
-            vertical-align: top;
-            word-break: break-all;
-        }
-        .exception-var table td:first-child{
-            width: 28%;
-            font-weight: bold;
-            white-space: nowrap;
-        }
-        .exception-var table td pre{
-            margin: 0;
-        }
-
-        /* Copyright Info */
-        .copyright{
-            margin-top: 24px;
-            padding: 12px 0;
-            border-top: 1px solid #eee;
-        }
-
-        /* SPAN elements with the classes below are added by prettyprint. */
-        pre.prettyprint .pln { color: #000 }  /* plain text */
-        pre.prettyprint .str { color: #080 }  /* string content */
-        pre.prettyprint .kwd { color: #008 }  /* a keyword */
-        pre.prettyprint .com { color: #800 }  /* a comment */
-        pre.prettyprint .typ { color: #606 }  /* a type name */
-        pre.prettyprint .lit { color: #066 }  /* a literal value */
-        /* punctuation, lisp open bracket, lisp close bracket */
-        pre.prettyprint .pun, pre.prettyprint .opn, pre.prettyprint .clo { color: #660 }
-        pre.prettyprint .tag { color: #008 }  /* a markup tag name */
-        pre.prettyprint .atn { color: #606 }  /* a markup attribute name */
-        pre.prettyprint .atv { color: #080 }  /* a markup attribute value */
-        pre.prettyprint .dec, pre.prettyprint .var { color: #606 }  /* a declaration; a variable name */
-        pre.prettyprint .fun { color: red }  /* a function name */
-    </style>
+  gtag('config', 'G-SG2GKVJW1Q');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="echo">
+
+<body data-page="detail">
+    <div class="w3l-bootstrap-header fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light p-2">
+        <div class="container">
+                        <a class="navbar-brand" href="/">VPN妈妈节点资源</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/">首页</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/free-nodes/">免费节点</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/paid-subscribe/">推荐机场</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/news/">新闻资讯</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/client.htm">客户端</a>
+                    </li>
+                                    </ul>
             </div>
-        <div class="exception">
-    <div class="message">
-        
-            <div class="info">
-                <div>
-                    <h2>[2]&nbsp;<abbr title="think\exception\ErrorException">ErrorException</abbr> in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php line 185">f14d6fc874f9a3212d0b2af485afa1ab.php line 185</a></h2>
-                </div>
-                <div><h1>count(): Parameter must be an array or an object that implements Countable</h1></div>
-            </div>
-        
-    </div>
-	        <div class="source-code">
-            <pre class="prettyprint lang-php"><ol start="176"><li class="line-176"><code>                                                &lt;p&gt;
-</code></li><li class="line-177"><code>                        &lt;?php if(is_array($menu_list) || $menu_list instanceof \think\Collection || $menu_list instanceof \think\Paginator): $i = 0; $__LIST__ = $menu_list;if( count($__LIST__)==0 ) : echo &quot;&quot; ;else: foreach($__LIST__ as $key=&gt;$item): $mod = ($i % 2 );++$i;?&gt;
-</code></li><li class="line-178"><code>                        &lt;a href=&quot;&lt;?php echo $item['url']; ?&gt;&quot;&gt;&lt;?php echo $item['name']; ?&gt;&lt;/a&gt; |
-</code></li><li class="line-179"><code>                        &lt;?php endforeach; endif; else: echo &quot;&quot; ;endif; ?&gt;
-</code></li><li class="line-180"><code>                        &lt;a href=&quot;/about-us.htm&quot;&gt;关于我们&lt;/a&gt; |
-</code></li><li class="line-181"><code>                        &lt;a href=&quot;/disclaimer.htm&quot;&gt;免责申明&lt;/a&gt; |
-</code></li><li class="line-182"><code>                        &lt;a href=&quot;/privacy.htm&quot;&gt;隐私申明&lt;/a&gt; |
-</code></li><li class="line-183"><code>                        &lt;a href=&quot;/sitemap.xml&quot;&gt;网站地图&lt;/a&gt;
-</code></li><li class="line-184"><code>                    &lt;/p&gt;
-</code></li><li class="line-185"><code>                    &lt;?php if(count($site_config['friendship_links_rows']) &gt; 0): ?&gt;
-</code></li><li class="line-186"><code>                    &lt;p&gt;
-</code></li><li class="line-187"><code>                        &lt;b&gt;友情链接：&lt;/b&gt;
-</code></li><li class="line-188"><code>                        &lt;?php if(is_array($site_config['friendship_links_rows']) || $site_config['friendship_links_rows'] instanceof \think\Collection || $site_config['friendship_links_rows'] instanceof \think\Paginator): $i = 0; $__LIST__ = $site_config['friendship_links_rows'];if( count($__LIST__)==0 ) : echo &quot;&quot; ;else: foreach($__LIST__ as $key=&gt;$item): $mod = ($i % 2 );++$i;?&gt;
-</code></li><li class="line-189"><code>                        &lt;a href=&quot;&lt;?php echo $item['url']; ?&gt;&quot; target=&quot;_blank&quot; title=&quot;&lt;?php echo $item['name']; ?&gt;&quot;&gt;&lt;?php echo $item['name']; ?&gt;&lt;/a&gt;
-</code></li><li class="line-190"><code>                        &lt;?php endforeach; endif; else: echo &quot;&quot; ;endif; ?&gt;
-</code></li><li class="line-191"><code>                    &lt;/p&gt;
-</code></li><li class="line-192"><code>                    &lt;?php endif; ?&gt;
-</code></li><li class="line-193"><code>                            &lt;?php echo $site_config['name']; ?&gt; 版权所有
-</code></li><li class="line-194"><code>                            &lt;br /&gt;
-</code></li></ol></pre>
         </div>
-	        <div class="trace">
-            <h2>Call Stack</h2>
-            <ol>
-                <li>in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php line 185">f14d6fc874f9a3212d0b2af485afa1ab.php line 185</a></li>
-                                <li>
-                at <abbr title="think\Error">Error</abbr>::appError(2, '<a class="toggle" title="count(): Parameter must be an array or an object that implements Countable">count(): Parameter m...</a>', '<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php">E:\SVNRepositories\C...</a>', 185, ['cacheFile' => '<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php">E:\SVNRepositories\C...</a>', 'vars' => ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758422777, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], 'user' => <em>null</em>, ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php line 185">f14d6fc874f9a3212d0b2af485afa1ab.php line 185</a>                </li>
-                                <li>
-                at include('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php">E:\SVNRepositories\C...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\template\driver\File.php line 53">File.php line 53</a>                </li>
-                                <li>
-                at <abbr title="think\template\driver\File">File</abbr>->read('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\runtime\temp\f14d6fc874f9a3212d0b2af485afa1ab.php">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758422777, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\Template.php line 188">Template.php line 188</a>                </li>
-                                <li>
-                at <abbr title="think\Template">Template</abbr>->fetch('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public/../application/index\view\freeclashmeta\index\url_blog.html">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758422777, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\view\driver\Think.php line 86">Think.php line 86</a>                </li>
-                                <li>
-                at <abbr title="think\view\driver\Think">Think</abbr>->fetch('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public/../application/index\view\freeclashmeta\index\url_blog.html">E:\SVNRepositories\C...</a>', ['user' => <em>null</em>, 'site' => ['name' => '我的网站', 'beian' => '', 'cdnurl' => '', ...], 'config' => ['site' => ['name' => '我的网站', 'cdnurl' => '', 'version' => 1758422777, ...], 'upload' => ['cdnurl' => '', 'uploadurl' => '<a class="toggle" title="/index.php/index/ajax/upload">/index.php/index/aja...</a>', 'bucket' => 'local', ...], 'modulename' => 'index', ...], ...], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\View.php line 163">View.php line 163</a>                </li>
-                                <li>
-                at <abbr title="think\View">View</abbr>->fetch('<a class="toggle" title="freeclashmeta/index/url_blog">freeclashmeta/index/...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\application\index\controller\Index.php line 334">Index.php line 334</a>                </li>
-                                <li>
-                at <abbr title="app\index\controller\Index">Index</abbr>->url_blog()                </li>
-                                <li>
-                at <abbr title="ReflectionMethod">ReflectionMethod</abbr>->invokeArgs(<em>object</em>(<abbr title="app\index\controller\Index">Index</abbr>), []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 343">App.php line 343</a>                </li>
-                                <li>
-                at <abbr title="think\App">App</abbr>::invokeMethod([<em>object</em>(<abbr title="app\index\controller\Index">Index</abbr>), 'url_blog'], []) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 611">App.php line 611</a>                </li>
-                                <li>
-                at <abbr title="think\App">App</abbr>::module(['index', 'index', 'url_blog'], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...], <em>true</em>) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 456">App.php line 456</a>                </li>
-                                <li>
-                at <abbr title="think\App">App</abbr>::exec(['type' => 'module', 'module' => ['index', 'index', 'url_blog']], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' => <em>false</em>, ...]) in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\App.php line 139">App.php line 139</a>                </li>
-                                <li>
-                at <abbr title="think\App">App</abbr>::run() in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\start.php line 19">start.php line 19</a>                </li>
-                                <li>
-                at require('<a class="toggle" title="E:\SVNRepositories\ClashGitPages2\thinkphp\start.php">E:\SVNRepositories\C...</a>') in <a class="toggle" title="E:\SVNRepositories\ClashGitPages2\public\index.php line 23">index.php line 23</a>                </li>
-                            </ol>
+    </nav>
+</div>
+    <!-- index-block1 -->
+    <div class="w3l-index-block1 list">
+        <div class="content py-5">
+            <div class="container">
+                <div class="row py-md-5 py-3">
+                    <div class="col-md-5 content-left">
+                        <h1 class="pt-5">VPN妈妈 | 9月19日20.3M/S|免费SSR/V2ray/Shadowrocket/Clash节点推荐，在线VPN机场梯子购买推荐</h1>
+                        <p class="mt-3 mb-md-5 mb-4">
+                            <a href="/">首页</a> / <a href="/free-nodes/">免费节点</a> / <span>正文</span>
+                        </p>
+                    </div>
+                    <div class="col-md-7 content-photo mt-md-0 mt-5">
+                        <img src="/assets/website/img/freeclashmeta/main.jpg" class="img-fluid" alt="main image">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
         </div>
     </div>
-        
-    
-        <div class="exception-var">
-        <h2>Environment Variables</h2>
-                <div>
-                        <h3 class="subheading">GET Data</h3>
-            <div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>website_id</strong></div>
-                    <div class="col-md-9"><small>
-                        398                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>id</strong></div>
-                    <div class="col-md-9"><small>
-                        157895                    </small></div>
-                </div>
-                            </div>
+    <!-- //index-block1 -->
+    <!-- content-with-photo17 -->
+    <section class="w3l-index-block3">
+        <div class="section-info py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                                        <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                    <p>今天是2025年9月19日，继续给大家带来最新免费节点，已全部合并到下方的订阅链接中，添加到客户端即可使用，节点数量一共30个，地区包含了韩国、欧洲、美国、新加坡、日本、香港、加拿大，最高速度达20.3M/S。</p><h3>高端机场推荐1 「<a href="javascript:;" class="js_to" data-url="https://www.nfsq.us/#/register?code=" data-type="Nongfu" data-code="UTg5SIHV" rel="nofollow noopener" style="color:red;">农夫山泉</a>」</h3><p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！
+IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！</p>
+
+
+
+<p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">网站注册地址：【<a href="javascript:;" class="js_to" data-url="https://www.nfsq.us/#/register?code=" data-type="Nongfu" data-code="UTg5SIHV" rel="nofollow noopener" style="margin: 0px; padding: 0px; color: #ff0000;">农夫山泉（点击注册）</a>】</p>
+
+<p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><h3>高端机场推荐2 「<a href="javascript:;" class="js_to" data-url="https://www.112112789.xyz/?path=" data-type="FeiniaoJiasu" data-code="register&code" rel="nofollow noopener" style="color:red;">飞鸟加速</a>」</h3><p>🚀 飞鸟加速 · 高速·稳定·无限可能</p><p>&nbsp;1. 多地专线高速节点，极速跨境体验，告别卡顿与延迟！</p><p>&nbsp;2. 一键解锁Netflix、Disney+、TikTok等全球流媒体，尽享自由精彩！</p><p>&nbsp;3. GPT专属线路支持，保障ChatGPT等AI服务高可用，稳定流畅！</p><p>&nbsp;4. 支持多设备同时使用，无限制，畅连全球！</p><p>&nbsp;5. 自有机房专柜，全球多地接入，安全可靠！</p><p>&nbsp;6. 专业客服团队7x24小时响应，使用无忧！</p>
+
+<p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">网站注册地址：【<a href="javascript:;" class="js_to" data-url="https://www.112112789.xyz/?path=" data-type="FeiniaoJiasu" data-code="register&code" rel="nofollow noopener" style="margin: 0px; padding: 0px; color: #ff0000;">飞鸟加速（点击注册）</a>】</p>
+
+<p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><h3>高端机场推荐3 「<a href="javascript:;" class="js_to" data-url="https://c.xcvpn.me/?path=" data-type="Xingchen" data-code="register&code" rel="nofollow noopener" style="color:red;">星辰机场</a>」</h3><p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！
+IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！</p>
+
+
+
+<p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">网站注册地址：【<a href="javascript:;" class="js_to" data-url="https://c.xcvpn.me/?path=" data-type="Xingchen" data-code="register&code" rel="nofollow noopener" style="margin: 0px; padding: 0px; color: #ff0000;">星辰VPN（点击注册）</a>】</p>
+
+<p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><h3>高端机场推荐4 「<a href="javascript:;" class="js_to" data-url="https://www.xiyou666.xyz/?path=" data-type="Xiyou" data-code="7WiPAwPs" rel="nofollow noopener" style="color:red;">西游云</a>」</h3><p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">无视高峰，全天4K秒开，机房遍布全球，IP多多益善，99%流媒体解锁，油管、葫芦、奈菲，小电影丝般顺滑！
+IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选择，现在注册即可免费试用！</p>
+
+
+
+<p style="margin-bottom: 20px; padding: 0px; line-height: 1.8; overflow-wrap: break-word; font-size: 15px; color: rgb(96, 98, 102); font-family: &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, Helvetica, Arial, sans-serif;">网站注册地址：【<a href="javascript:;" class="js_to" data-url="https://www.xiyou666.xyz/?path=" data-type="Xiyou" data-code="7WiPAwPs" rel="nofollow noopener" style="margin: 0px; padding: 0px; color: #ff0000;">西游云（点击注册）</a>】</p>
+
+<p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><p>&nbsp;</p><p></p><h2>订阅文件链接</h2><p>&nbsp;</p><p><strong>Clash订阅链接</strong></p><p>https://vpnmama.github.io/uploads/2025/09/0-20250919.yaml</p><p>https://vpnmama.github.io/uploads/2025/09/1-20250919.yaml</p><p>https://vpnmama.github.io/uploads/2025/09/2-20250919.yaml</p><p>&nbsp;</p><p><strong>V2ray订阅链接:</strong></p><p>https://vpnmama.github.io/uploads/2025/09/1-20250919.txt</p><p>https://vpnmama.github.io/uploads/2025/09/2-20250919.txt</p><p><strong>Sing-Box订阅链接</strong></p><p>https://vpnmama.github.io/uploads/2025/09/20250919.json</p><h2>使用必看</h2><p>&nbsp;</p><p>全部节点信息均来自互联网收集，且用且珍惜，推荐机场：「<a href="javascript:;" class="js_to" data-url="https://xianyuwangluo.top/#/register?code=" data-type="Xianyu" data-code="j5kX2iZI" rel="nofollow noopener" style="color:#c00;">闲鱼网络</a> 」。仅针对用于学习研究的用户分享，请勿随意传播其他信息。免费节点有效时间比较短，遇到失效是正常现象。</p><h2>突破网络边界：iOS设备上Chrome科学上网全攻略</h2>  <p>在这个信息爆炸的时代，互联网本应是无边界的知识海洋，然而现实中我们却常常遭遇各种网络限制。对于iOS用户而言，如何在Chrome浏览器上实现科学上网成为了一项必备技能。本文将为您全面解析这一过程，从原理到实践，手把手教您突破网络桎梏，畅游全球互联网。</p>  <h2>科学上网的本质与价值</h2>  <p>科学上网并非简单的"翻墙"行为，而是一种获取信息自由的必要手段。在全球化背景下，许多优质的教育资源、前沿科技资讯和多元文化内容都分布在不同国家的网络空间中。科学上网插件通过技术手段，让用户能够绕过地理限制，平等获取这些宝贵资源。</p>  <p>这类插件的核心功能包括三个方面：首先是IP地址的隐藏与替换，这是突破地域限制的基础；其次是数据传输的加密，保障用户隐私安全；最后是网络路径的优化，提升跨境访问的速度。三者结合，共同构建了一个安全、自由、高效的网络访问环境。</p>  <h2>为什么选择Chrome插件方案</h2>  <p>在众多科学上网方案中，Chrome插件具有独特优势。作为全球使用最广泛的浏览器之一，Chrome拥有庞大的开发者社区和丰富的插件生态。科学上网插件作为其中重要组成部分，通常具备以下特点：</p>  <ol> <li><strong>轻量化设计</strong>：相比独立VPN应用，插件体积更小，资源占用更低</li> <li><strong>操作简便</strong>：一键连接，无需复杂配置</li> <li><strong>针对性强</strong>：专门为浏览器流量优化，网页访问体验更佳</li> <li><strong>灵活切换</strong>：可随时启用或禁用，适应不同使用场景</li> </ol>  <p>特别对于iOS用户而言，由于系统封闭性，许多传统科学上网方式受限，通过Chrome插件反而能获得更稳定的连接体验。</p>  <h2>插件选择与下载指南</h2>  <p>App Store中有众多打着"科学上网"旗号的应用，质量参差不齐。如何慧眼识珠，选择适合自己的插件？以下是几个关键考量因素：</p>  <p><strong>安全性</strong>：优先选择有明确隐私政策、不记录用户日志的插件。知名开发者出品的产品通常更值得信赖。</p>  <p><strong>服务器分布</strong>：优质插件会在全球部署多个服务器节点，覆盖北美、欧洲、亚洲等主要地区，确保稳定连接。</p>  <p><strong>连接协议</strong>：现代插件多采用WireGuard、IKEv2等高效协议，在安全性和速度间取得平衡。</p>  <p><strong>用户评价</strong>：仔细阅读App Store中的用户反馈，特别是长期使用体验报告，避免被刷评迷惑。</p>  <p>下载过程虽然简单，但需注意以下几点： 1. 使用App Store官方渠道，避免第三方下载 2. 确认开发者信息真实可靠 3. 首次启动时留意权限请求是否合理 4. 优先选择提供免费试用期的产品</p>  <h2>详细安装与配置教程</h2>  <p>成功下载插件后，让我们进入实操环节。以下是分步骤的详细指南：</p>  <h3>基础安装</h3>  <ol> <li>打开Chrome浏览器，点击右上角的"•••"菜单</li> <li>选择"更多工具"-"扩展程序"</li> <li>在扩展程序页面左上角开启"开发者模式"</li> <li>将下载的插件文件拖拽至该页面完成安装</li> <li>确认权限请求后，插件图标将出现在浏览器工具栏</li> </ol>  <h3>进阶配置</h3>  <p>大多数科学上网插件提供丰富的自定义选项，合理配置可显著提升使用体验：</p>  <p><strong>协议选择</strong>：根据网络环境选择最优协议。校园网等严格环境可尝试混淆协议，家庭宽带则可选择速度优先的协议。</p>  <p><strong>分流设置</strong>：智能路由功能可让国内网站直连，仅对境外流量进行代理，兼顾速度与功能。</p>  <p><strong>DNS配置</strong>：使用纯净DNS如1.1.1.1或8.8.4.4可避免DNS污染导致的连接问题。</p>  <p><strong>自动连接</strong>：设置信任网络下的自动连接规则，省去手动操作。</p>  <h2>使用技巧与优化建议</h2>  <p>掌握以下技巧，您的科学上网体验将更上一层楼：</p>  <p><strong>服务器选择策略</strong>：地理距离并非唯一标准。晚间高峰时段，部分冷门节点可能速度更快。定期测试不同节点找到最佳选择。</p>  <p><strong>多设备同步</strong>：许多优质插件支持多平台，可在iOS、Android、PC间同步配置和收藏节点。</p>  <p><strong>速度优化</strong>：启用插件的压缩功能可减少数据传输量；关闭不必要的浏览器标签也能释放带宽。</p>  <p><strong>安全增强</strong>：结合浏览器隐私模式使用，避免留下痕迹；定期清除Cookies保护账号安全。</p>  <h2>疑难问题解决方案</h2>  <p>即使是最稳定的科学上网插件，偶尔也会遇到问题。以下是常见问题及解决方法：</p>  <p><strong>连接不稳定</strong>： - 尝试切换不同网络协议 - 检查本地网络是否限制了VPN流量 - 更新插件至最新版本</p>  <p><strong>速度缓慢</strong>： - 选择负载较低的服务器节点 - 避开网络高峰时段 - 关闭其他占用带宽的应用</p>  <p><strong>部分网站无法访问</strong>： - 检查插件是否启用了全局模式 - 尝试更换DNS服务器 - 清除浏览器缓存后重试</p>  <p><strong>账号异常</strong>： - 立即断开连接并修改密码 - 检查设备是否有恶意软件 - 联系插件客服确认账号状态</p>  <h2>法律与道德考量</h2>  <p>科学上网是一把双刃剑，使用时需注意：</p>  <ol> <li>遵守当地法律法规，不用于非法用途</li> <li>尊重知识产权，不盗版受版权保护的内容</li> <li>保护个人隐私，不在公共网络进行敏感操作</li> <li>合理使用带宽，避免影响他人网络体验</li> </ol>  <h2>未来发展趋势</h2>  <p>随着网络技术的演进，科学上网工具也在不断创新。未来可能出现以下发展方向：</p>  <ul> <li><strong>AI智能路由</strong>：基于实时网络状况自动选择最优路径</li> <li><strong>区块链去中心化</strong>：用户共享带宽资源，构建更抗审查的网络</li> <li><strong>硬件加速</strong>：专用芯片提升加密解密效率，降低延迟</li> <li><strong>深度伪装</strong>：流量特征与常规浏览无异，更难被识别拦截</li> </ul>  <h2>结语：自由与责任的平衡</h2>  <p>掌握科学上网技能，如同获得了一把打开知识宝库的钥匙。在这个信息即权力的时代，获取全面、多元的信息是每个网民的基本权利。然而，权利永远伴随着责任。希望每位读者在享受无边界网络的同时，也能成为理性、负责任的数字公民，共同维护开放、自由、安全的网络环境。</p>  <p>通过本文的指导，您应该已经能够在iOS设备上熟练使用Chrome科学上网插件。记住，技术只是工具，如何使用取决于使用者的智慧与判断。愿您在信息的海洋中既能畅游无阻，又能明辨是非，真正让科技服务于个人成长与社会进步。</p>  <p><strong>精彩点评</strong>： 本文突破了传统技术教程的局限，将科学上网这一敏感话题置于更广阔的社会技术语境中探讨。文章结构严谨，从技术原理到实操步骤，再到伦理思考，层层递进，体现了作者对这一问题的深刻理解。语言表达上，既保持了技术文章的准确性，又不失科普读物的可读性，专业术语与通俗解释相得益彰。特别是将法律道德考量纳入讨论，展现了负责任的技术传播态度，使文章在实用价值之外更具社会意义。对未来的展望部分尤为精彩，既有技术的前瞻性，又有人文关怀，为读者勾勒出一幅技术与人文和谐共生的数字未来图景。</p>                 </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/free-nodes/2025-9-18-clash-verge-rev-node-github.htm">VPN妈妈 | 9月18日20.2M/S|免费Clash/V2ray/SSR/Shadowrocket节点推荐，在线VPN机场梯子购买推荐</a></p>
+                                        <p>下一个：<a href="/free-nodes/2025-9-20-clash-node-github.htm">VPN妈妈 | 9月20日21.9M/S|免费Shadowrocket/SSR/V2ray/Clash节点推荐，在线VPN机场梯子购买推荐</a></p>
+                                    </div>
+                                <div class="panel panel-default mt-5">
+                    <div class="panel-heading">
+                        <h3 class="m-0">推荐文章</h3>
                     </div>
-                <div>
-                        <div class="clearfix">
-                <div class="col-md-3"><strong>POST Data</strong></div>
-                <div class="col-md-9"><small>empty</small></div>
-            </div>
+                    <div class="panel-body">
+                        <ul class="p-0 x-0">
+                                                        <li class="py-2"><a href="/free-nodes/2025-9-18-clash-verge-rev-node-github.htm">VPN妈妈 | 9月18日20.2M/S|免费Clash/V2ray/SSR/Shadowrocket节点推荐，在线VPN机场梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-9-17-free-node-subscribe.htm">VPN妈妈 | 9月17日22.8M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-9-16-clash-verge-rev-node-share.htm">VPN妈妈 | 9月16日22M/S|免费Clash/Shadowrocket/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-9-15-clash-node-daily-updates.htm">VPN妈妈 | 9月15日20.7M/S|免费Clash/SSR/Shadowrocket/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-9-14-clash-meta-github.htm">VPN妈妈 | 9月14日22.5M/S|免费Clash/Shadowrocket/V2ray/SSR节点推荐，在线VPN机场梯子购买推荐</a></li>
+                                                        <li class="py-2"><a href="/free-nodes/2025-9-13-clash-v2ray-ss-ssr.htm">VPN妈妈 | 9月13日19.9M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                                                    </ul>
                     </div>
-                <div>
-                        <div class="clearfix">
-                <div class="col-md-3"><strong>Files</strong></div>
-                <div class="col-md-9"><small>empty</small></div>
-            </div>
-                    </div>
-                <div>
-                        <div class="clearfix">
-                <div class="col-md-3"><strong>Cookies</strong></div>
-                <div class="col-md-9"><small>empty</small></div>
-            </div>
-                    </div>
-                <div>
-                        <div class="clearfix">
-                <div class="col-md-3"><strong>Session</strong></div>
-                <div class="col-md-9"><small>empty</small></div>
-            </div>
-                    </div>
-                <div>
-                        <h3 class="subheading">Server/Request Data</h3>
-            <div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ALLUSERSPROFILE</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\ProgramData                    </small></div>
                 </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>APPDATA</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\system32\config\systemprofile\AppData\Roaming                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CommonProgramFiles</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files\Common Files                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CommonProgramFiles(x86)</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files (x86)\Common Files                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CommonProgramW6432</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files\Common Files                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>COMPUTERNAME</strong></div>
-                    <div class="col-md-9"><small>
-                        DESKTOP-NSJC0E1                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ComSpec</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\system32\cmd.exe                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>DriverData</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\System32\Drivers\DriverData                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>LOCALAPPDATA</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\system32\config\systemprofile\AppData\Local                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>NUMBER_OF_PROCESSORS</strong></div>
-                    <div class="col-md-9"><small>
-                        6                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>OS</strong></div>
-                    <div class="col-md-9"><small>
-                        Windows_NT                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>Path</strong></div>
-                    <div class="col-md-9"><small>
-                                            </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PATHEXT</strong></div>
-                    <div class="col-md-9"><small>
-                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PROCESSOR_ARCHITECTURE</strong></div>
-                    <div class="col-md-9"><small>
-                        AMD64                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PROCESSOR_IDENTIFIER</strong></div>
-                    <div class="col-md-9"><small>
-                        Intel64 Family 6 Model 158 Stepping 10, GenuineIntel                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PROCESSOR_LEVEL</strong></div>
-                    <div class="col-md-9"><small>
-                        6                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PROCESSOR_REVISION</strong></div>
-                    <div class="col-md-9"><small>
-                        9e0a                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ProgramData</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\ProgramData                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ProgramFiles</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ProgramFiles(x86)</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files (x86)                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ProgramW6432</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PSModulePath</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PUBLIC</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Users\Public                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SystemDrive</strong></div>
-                    <div class="col-md-9"><small>
-                        C:                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SystemRoot</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>TEMP</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\TEMP                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>TMP</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\TEMP                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>USERDOMAIN</strong></div>
-                    <div class="col-md-9"><small>
-                        WORKGROUP                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>USERNAME</strong></div>
-                    <div class="col-md-9"><small>
-                        DESKTOP-NSJC0E1$                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>USERPROFILE</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows\system32\config\systemprofile                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>windir</strong></div>
-                    <div class="col-md-9"><small>
-                        C:\Windows                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>HTTP_ACCEPT</strong></div>
-                    <div class="col-md-9"><small>
-                        */*                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>HTTP_USER_AGENT</strong></div>
-                    <div class="col-md-9"><small>
-                        Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.98 Safari/537.36                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>HTTP_HOST</strong></div>
-                    <div class="col-md-9"><small>
-                        cgp2-e.com                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REDIRECT_STATUS</strong></div>
-                    <div class="col-md-9"><small>
-                        200                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SERVER_NAME</strong></div>
-                    <div class="col-md-9"><small>
-                        cgp2-e.com                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SERVER_PORT</strong></div>
-                    <div class="col-md-9"><small>
-                        80                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SERVER_ADDR</strong></div>
-                    <div class="col-md-9"><small>
-                        127.0.0.1                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REMOTE_PORT</strong></div>
-                    <div class="col-md-9"><small>
-                        49609                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REMOTE_ADDR</strong></div>
-                    <div class="col-md-9"><small>
-                        127.0.0.1                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SERVER_SOFTWARE</strong></div>
-                    <div class="col-md-9"><small>
-                        nginx/1.15.11                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>GATEWAY_INTERFACE</strong></div>
-                    <div class="col-md-9"><small>
-                        CGI/1.1                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REQUEST_SCHEME</strong></div>
-                    <div class="col-md-9"><small>
-                        http                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SERVER_PROTOCOL</strong></div>
-                    <div class="col-md-9"><small>
-                        HTTP/1.1                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>DOCUMENT_ROOT</strong></div>
-                    <div class="col-md-9"><small>
-                        E:/SVNRepositories/ClashGitPages2/public                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>DOCUMENT_URI</strong></div>
-                    <div class="col-md-9"><small>
-                        /index.php/index/index/url_blog                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REQUEST_URI</strong></div>
-                    <div class="col-md-9"><small>
-                        /index.php/index/index/url_blog?website_id=398&amp;id=157895                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SCRIPT_NAME</strong></div>
-                    <div class="col-md-9"><small>
-                        /index.php                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CONTENT_LENGTH</strong></div>
-                    <div class="col-md-9"><small>
-                                            </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CONTENT_TYPE</strong></div>
-                    <div class="col-md-9"><small>
-                                            </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REQUEST_METHOD</strong></div>
-                    <div class="col-md-9"><small>
-                        GET                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>QUERY_STRING</strong></div>
-                    <div class="col-md-9"><small>
-                        website_id=398&amp;id=157895                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PATH_TRANSLATED</strong></div>
-                    <div class="col-md-9"><small>
-                        E:/SVNRepositories/ClashGitPages2/public/index/index/url_blog                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PATH_INFO</strong></div>
-                    <div class="col-md-9"><small>
-                        /index/index/url_blog                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>SCRIPT_FILENAME</strong></div>
-                    <div class="col-md-9"><small>
-                        E:/SVNRepositories/ClashGitPages2/public/index.php                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>FCGI_ROLE</strong></div>
-                    <div class="col-md-9"><small>
-                        RESPONDER                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>PHP_SELF</strong></div>
-                    <div class="col-md-9"><small>
-                        /index.php/index/index/url_blog                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REQUEST_TIME_FLOAT</strong></div>
-                    <div class="col-md-9"><small>
-                        1758422777.1099                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>REQUEST_TIME</strong></div>
-                    <div class="col-md-9"><small>
-                        1758422777                    </small></div>
-                </div>
-                            </div>
-                    </div>
-                <div>
-                        <div class="clearfix">
-                <div class="col-md-3"><strong>Environment Variables</strong></div>
-                <div class="col-md-9"><small>empty</small></div>
-            </div>
-                    </div>
-                <div>
-                        <h3 class="subheading">ThinkPHP Constants</h3>
-            <div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>APP_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\public/../application/                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>THINK_VERSION</strong></div>
-                    <div class="col-md-9"><small>
-                        5.0.28                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>THINK_START_TIME</strong></div>
-                    <div class="col-md-9"><small>
-                        1758422777.1103                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>THINK_START_MEM</strong></div>
-                    <div class="col-md-9"><small>
-                        408864                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>EXT</strong></div>
-                    <div class="col-md-9"><small>
-                        .php                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>DS</strong></div>
-                    <div class="col-md-9"><small>
-                        \                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>THINK_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\thinkphp\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>LIB_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\thinkphp\library\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CORE_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\thinkphp\library\think\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>TRAIT_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\thinkphp\library\traits\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ROOT_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>EXTEND_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\extend\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>VENDOR_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\vendor\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>RUNTIME_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\runtime\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>LOG_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\runtime\log\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CACHE_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\runtime\cache\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>TEMP_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\runtime\temp\                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CONF_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\public/../application/                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>CONF_EXT</strong></div>
-                    <div class="col-md-9"><small>
-                        .php                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ENV_PREFIX</strong></div>
-                    <div class="col-md-9"><small>
-                        PHP_                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>IS_CLI</strong></div>
-                    <div class="col-md-9"><small>
-                        false                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>IS_WIN</strong></div>
-                    <div class="col-md-9"><small>
-                        true                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>FILTER_VALIDATE_BOOL</strong></div>
-                    <div class="col-md-9"><small>
-                        258                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>HTMLPURIFIER_PREFIX</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\vendor\ezyang\htmlpurifier\library                    </small></div>
-                </div>
-                                <div class="clearfix">
-                    <div class="col-md-3"><strong>ADDON_PATH</strong></div>
-                    <div class="col-md-9"><small>
-                        E:\SVNRepositories\ClashGitPages2\addons\                    </small></div>
-                </div>
-                            </div>
-                    </div>
-            </div>
-    
-    <div class="copyright">
-        <a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a> 
-        <span>V5.0.28</span> 
-        <span>{ 十年磨一剑-为API开发设计的高性能框架 }</span>
+                                    </div>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
     </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-155350.htm" title="打开PS4的网络大门：无需电脑实现科学上网的完整攻略">打开PS4的网络大门：无需电脑实现科学上网的完整攻略</a></li>
+                        <li class="py-2"><a href="/news/article-154982.htm" title="深入解析Quantumult X订阅功能：购买、配置与常见问题解答">深入解析Quantumult X订阅功能：购买、配置与常见问题解答</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-13-clash-v2ray-ss-ssr.htm" title="VPN妈妈 | 9月13日19.9M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐">VPN妈妈 | 9月13日19.9M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-152062.htm" title="深度解析Shadowrocket端口号：从原理到实战优化的完整指南">深度解析Shadowrocket端口号：从原理到实战优化的完整指南</a></li>
+                        <li class="py-2"><a href="/news/article-150263.htm" title="突破网络边界：科学上网的终极指南与深度解析">突破网络边界：科学上网的终极指南与深度解析</a></li>
+                        <li class="py-2"><a href="/news/article-148931.htm" title="掌握网络脉搏：全方位解析v2ray流量的计算与管理艺术">掌握网络脉搏：全方位解析v2ray流量的计算与管理艺术</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-15-clash-node-daily-updates.htm" title="VPN妈妈 | 9月15日20.7M/S|免费Clash/SSR/Shadowrocket/V2ray节点推荐，在线VPN机场梯子购买推荐">VPN妈妈 | 9月15日20.7M/S|免费Clash/SSR/Shadowrocket/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-154247.htm" title="全面掌握Shadowrocket：从入门到精通的代理配置与使用宝典">全面掌握Shadowrocket：从入门到精通的代理配置与使用宝典</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-14-clash-meta-github.htm" title="VPN妈妈 | 9月14日22.5M/S|免费Clash/Shadowrocket/V2ray/SSR节点推荐，在线VPN机场梯子购买推荐">VPN妈妈 | 9月14日22.5M/S|免费Clash/Shadowrocket/V2ray/SSR节点推荐，在线VPN机场梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-152789.htm" title="突破网络边界：谷歌下载科学上网工具的终极指南">突破网络边界：谷歌下载科学上网工具的终极指南</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">21</span> <a href="/date/2025-09/" title="2025-09 归档">2025-09</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">5</span> <a href="/date/2025-08/" title="2025-08 归档">2025-08</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="w3l-market-footer">
+        <footer class="footer-28">
+            <div class="footer-bg-layer">
+                <div class="midd-footer-28 align-center py-lg-4 py-3 mt-5">
+                    <div class="container">
+                        <p class="copy-footer-28 text-center">
+                                                <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/free-nodes/">免费节点</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                                                VPN妈妈 订阅中文网 版权所有
+                            <br />
+                            Powered by WordPress
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            &#10548;
+        </button>
         <script>
-        var LINE = 185;
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-        function $(selector, node){
-            var elements;
-
-            node = node || document;
-            if(document.querySelectorAll){
-                elements = node.querySelectorAll(selector);
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
             } else {
-                switch(selector.substr(0, 1)){
-                    case '#':
-                        elements = [node.getElementById(selector.substr(1))];
-                        break;
-                    case '.':
-                        if(document.getElementsByClassName){
-                            elements = node.getElementsByClassName(selector.substr(1));
-                        } else {
-                            elements = get_elements_by_class(selector.substr(1), node);
-                        }
-                        break;
-                    default:
-                        elements = node.getElementsByTagName();
-                }
-            }
-            return elements;
-
-            function get_elements_by_class(search_class, node, tag) {
-                var elements = [], eles, 
-                    pattern  = new RegExp('(^|\\s)' + search_class + '(\\s|$)');
-
-                node = node || document;
-                tag  = tag  || '*';
-
-                eles = node.getElementsByTagName(tag);
-                for(var i = 0; i < eles.length; i++) {
-                    if(pattern.test(eles[i].className)) {
-                        elements.push(eles[i])
-                    }
-                }
-
-                return elements;
+                document.getElementById("movetop").style.display = "none";
             }
         }
 
-        $.getScript = function(src, func){
-            var script = document.createElement('script');
-            
-            script.async  = 'async';
-            script.src    = src;
-            script.onload = func || function(){};
-            
-            $('head')[0].appendChild(script);
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
-
-        ;(function(){
-            var files = $('.toggle');
-            var ol    = $('ol', $('.prettyprint')[0]);
-            var li    = $('li', ol[0]);   
-
-            // 短路径和长路径变换
-            for(var i = 0; i < files.length; i++){
-                files[i].ondblclick = function(){
-                    var title = this.title;
-
-                    this.title = this.innerHTML;
-                    this.innerHTML = title;
+        </script>
+        <!-- /move top -->
+    </section>
+    <!-- //footer-28 block -->
+    <!-- jQuery, Bootstrap JS -->
+    <script src="/assets/website/js/frontend/freeclashmeta/jquery-3.5.1.min.js"></script>
+    <script src="/assets/website/js/frontend/freeclashmeta/bootstrap.min.js"></script>
+    <!-- Template JavaScript -->
+    <script src="/assets/website/js/frontend/freeclashmeta/owl.carousel.js"></script>
+    <!-- script for owlcarousel -->
+    <script>
+    $(document).ready(function() {
+        $('.owl-one').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            responsiveClass: true,
+            autoplay: false,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            autoplayHoverPause: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                480: {
+                    items: 1,
+                    nav: false
+                },
+                667: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true
                 }
             }
-
-            // 设置出错行
-            var err_line = $('.line-' + LINE, ol[0])[0];
-            err_line.className = err_line.className + ' line-error';
-
-            $.getScript('//lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/prettify/r298/prettify.min.js', function(){
-                prettyPrint();
-
-                // 解决Firefox浏览器一个很诡异的问题
-                // 当代码高亮后，ol的行号莫名其妙的错位
-                // 但是只要刷新li里面的html重新渲染就没有问题了
-                if(window.navigator.userAgent.indexOf('Firefox') >= 0){
-                    ol[0].innerHTML = ol[0].innerHTML;
-                }
-            });
-
-        })();
+        })
+    })
     </script>
-    </body>
+    <!-- //script for owlcarousel -->
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+    $(function() {
+        $('.navbar-toggler').click(function() {
+            $('body').toggleClass('noscroll');
+        })
+    });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <script src="/assets/website/js/frontend/freeclashmeta/jquery.magnific-popup.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+        });
+
+        $('.popup-with-move-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-slide-bottom'
+        });
+    });
+    </script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script><script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
 </html>
