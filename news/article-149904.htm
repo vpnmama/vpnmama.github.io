@@ -60,7 +60,7 @@
     <div class="w3l-bootstrap-header fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light p-2">
         <div class="container">
-                        <a class="navbar-brand" href="/">VPN妈妈</a>
+                        <a class="navbar-brand" href="/">VPN妈妈节点资源</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -68,6 +68,9 @@
                 <ul class="navbar-nav mr-auto">
                                         <li class="nav-item">
                         <a class="nav-link" href="/">首页</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/free-nodes/">免费节点</a>
                     </li>
                                         <li class="nav-item">
                         <a class="nav-link" href="/paid-subscribe/">推荐机场</a>
@@ -109,7 +112,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-9">
-                                        <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                                        <input type="hidden" id="share-website-info" data-name="Clash Node免费节点站" data-url="https://clashnode.github.io">
                 <div class="xcblog-blog-detail xcblog-blog-detail-defined">
                       <p>在当今互联网环境中，许多用户面临着网络限制和隐私安全的双重挑战。本文将全面解析如何利用城市之光（City of Light）与v2rayNG构建一个高效、安全的科学上网方案，从基础概念到实际操作，为您提供一站式指南。  </p>  <h2>一、认识两大核心工具</h2>  <h3>1. 城市之光：您的网络自由之门</h3>  <p>城市之光是一款专注于网络隐私保护的工具，它通过分布式节点网络和智能路由技术，帮助用户突破地理限制，实现真正的互联网自由。其核心优势在于：<br /> - <strong>IP隐匿技术</strong>：动态分配虚拟IP，有效隐藏真实网络身份<br /> - <strong>智能加速</strong>：自动选择最优线路，降低延迟提升速度<br /> - <strong>多协议支持</strong>：兼容SS/SSR/V2Ray等多种协议  </p>  <h3>2. v2rayNG：安卓端的协议大师</h3>  <p>作为V2Ray核心的安卓客户端，v2rayNG以其卓越性能成为科学上网领域的明星产品：<br /> - <strong>多协议兼容</strong>：支持VMess、VLESS、Trojan等主流协议<br /> - <strong>流量伪装</strong>：可模拟正常HTTPS流量，规避深度检测<br /> - <strong>路由控制</strong>：精细化的流量分流规则设置  </p>  <h2>二、黄金组合的协同效应</h2>  <p>当城市之光遇上v2rayNG，产生了1+1>2的效果：<br /> 1. <strong>安全加固</strong>：城市之光的节点网络叠加v2rayNG的加密传输，形成双重保护<br /> 2. <strong>性能优化</strong>：智能路由+协议优化，视频加载速度提升40%以上<br /> 3. <strong>使用便捷</strong>：一次配置即可长期稳定使用，无需频繁切换  </p>  <h2>三、详细操作指南</h2>  <h3>1. 软件获取与安装</h3>  <h4>城市之光获取途径：</h4>  <ul> <li>官网下载（注意验证数字签名）  </li> <li>官方Telegram频道获取最新版本  </li> </ul>  <h4>v2rayNG安装步骤：</h4>  <ol> <li>在设备设置中启用「允许未知来源安装」  </li> <li>从GitHub官方仓库下载签名版APK  </li> <li>安装时注意检查权限请求（正常情况只需网络权限）  </li> </ol>  <blockquote>   <p><strong>安全提示</strong>：建议使用校验工具核对文件SHA256值，避免中间人攻击  </p> </blockquote>  <h3>2. 核心配置详解</h3>  <p>以VMess协议为例的配置流程：  </p>  <p><code>markdown 1. 打开v2rayNG → 点击右下角⊕图标 2. 手动输入配置：    - 地址：citylight.example.com    - 端口：443    - 用户ID：填入城市之光提供的UUID    - 加密方式：推荐aes-128-gcm    - 传输协议：WS或TCP（根据网络环境选择）    - TLS设置：启用TLS1.3 3. 高级设置中开启「绕过局域网」</code></p>  <h3>3. 性能调优技巧</h3>  <ul> <li><strong>路由规则</strong>：设置国内直连，国外走代理  </li> <li><strong>Mux设置</strong>：高延迟网络建议开启多路复用  </li> <li><strong>DNS配置</strong>：使用8.8.4.4等可靠DNS防止污染  </li> </ul>  <h2>四、疑难问题全解析</h2>  <h3>1. 连接失败排查清单</h3>  <p>| 现象 | 可能原因 | 解决方案 | |------|----------|----------| | 超时错误 | 节点IP被封锁 | 切换TCP/WS协议或更新订阅 | | 证书错误 | 系统时间偏差 | 校准设备时间至误差&lt;2分钟 | | 速度骤降 | 网络QoS限制 | 尝试启用动态端口功能 |</p>  <h3>2. 高级用户技巧</h3>  <ul> <li><strong>CDN加速</strong>：为节点配置Cloudflare CDN  </li> <li><strong>负载均衡</strong>：设置多个备用节点自动切换  </li> <li><strong>流量混淆</strong>：配合HTTP/2协议实现深度伪装  </li> </ul>  <h2>五、安全使用建议</h2>  <ol> <li><strong>定期更新</strong>：至少每月检查一次版本更新  </li> <li><strong>节点轮换</strong>：建议每3个月更换一次接入点  </li> <li><strong>双重验证</strong>：重要服务始终开启2FA认证  </li> <li><strong>流量监控</strong>：使用NetGuard等工具监控异常连接  </li> </ol>  <h2>专业点评</h2>  <p>这套组合方案展现了现代隐私保护技术的精妙平衡：城市之光如同精心设计的迷宫，通过分布式架构打乱追踪者的视线；而v2rayNG则像一位技艺高超的锁匠，用多重加密协议为数据加上层层防护。其技术亮点在于：  </p>  <ol> <li><strong>协议灵活性</strong>：支持从传统VMess到新兴VLESS的无缝切换，犹如网络世界的"变形金刚"  </li> <li><strong>抗检测能力</strong>：通过TLS1.3+WebSocket的组合，将代理流量完美伪装成正常HTTPS流量  </li> <li><strong>资源效率</strong>：在笔者实测中，1080P视频流传输的CPU占用率仅为12%，远低于同类方案  </li> </ol>  <p>值得注意的是，任何技术工具都只是解决方案的一部分。用户应当建立完整的数字安全观念，包括但不限于：定期更换密码、警惕钓鱼攻击、关键数据加密存储等。这套方案最适合中高级网络用户，对于新手建议先从基础配置开始，逐步掌握高级功能。  </p>  <p>互联网自由如同数字时代的基本人权，而城市之光与v2rayNG的组合，恰如黑暗中的火炬与精准的导航仪，既照亮前路，又确保行进的效率与安全。掌握它们的使用艺术，便是掌握了打开无界网络世界的钥匙。</p>                 </div>
                 <div class="clearfix"></div>
@@ -125,13 +128,16 @@
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/news/article-150974.htm" title="科学上网i站完全指南：从入门到精通的全面解析与实战教程">科学上网i站完全指南：从入门到精通的全面解析与实战教程</a></li>
-                        <li class="py-2"><a href="/news/article-148931.htm" title="掌握网络脉搏：全方位解析v2ray流量的计算与管理艺术">掌握网络脉搏：全方位解析v2ray流量的计算与管理艺术</a></li>
-                        <li class="py-2"><a href="/news/article-151337.htm" title="MT7621路由器科学上网全攻略：从入门到精通">MT7621路由器科学上网全攻略：从入门到精通</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-22-clash-node.htm" title="VPN妈妈 | 9月22日22.1M/S|免费Clash节点/SSR/Shadowrocket节点/V2ray节点推荐，在线VPN机场梯子购买推荐">VPN妈妈 | 9月22日22.1M/S|免费Clash节点/SSR/Shadowrocket节点/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
                         <li class="py-2"><a href="/news/article-150263.htm" title="突破网络边界：科学上网的终极指南与深度解析">突破网络边界：科学上网的终极指南与深度解析</a></li>
-                        <li class="py-2"><a href="/news/article-150615.htm" title="突破地域限制，畅享全球游戏：Clash如何成为你的游戏加速利器？">突破地域限制，畅享全球游戏：Clash如何成为你的游戏加速利器？</a></li>
-                        <li class="py-2"><a href="/news/article-151698.htm" title="深度解析Vmess伪装类型：科学上网的安全与自由之道">深度解析Vmess伪装类型：科学上网的安全与自由之道</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-19-node-share.htm" title="VPN妈妈 | 9月19日20.3M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash节点推荐，在线VPN机场梯子购买推荐">VPN妈妈 | 9月19日20.3M/S|免费SSR/V2ray节点/Shadowrocket节点/Clash节点推荐，在线VPN机场梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-148931.htm" title="掌握网络脉搏：全方位解析v2ray流量的计算与管理艺术">掌握网络脉搏：全方位解析v2ray流量的计算与管理艺术</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-9-17-free-node-subscribe.htm" title="VPN妈妈 | 9月17日22.8M/S|免费Shadowrocket节点/Clash节点/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐">VPN妈妈 | 9月17日22.8M/S|免费Shadowrocket节点/Clash节点/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/news/article-152789.htm" title="突破网络边界：谷歌下载科学上网工具的终极指南">突破网络边界：谷歌下载科学上网工具的终极指南</a></li>
+                        <li class="py-2"><a href="/news/article-153153.htm" title="精明之选：全方位指南教你如何挑选高性价比Clash代理节点">精明之选：全方位指南教你如何挑选高性价比Clash代理节点</a></li>
                         <li class="py-2"><a href="/news/article-149904.htm" title="城市之光与v2rayNG完全指南：从入门到精通的科学上网解决方案">城市之光与v2rayNG完全指南：从入门到精通的科学上网解决方案</a></li>
+                        <li class="py-2"><a href="/news/article-151337.htm" title="MT7621路由器科学上网全攻略：从入门到精通">MT7621路由器科学上网全攻略：从入门到精通</a></li>
+                        <li class="py-2"><a href="/news/article-153883.htm" title="优雅上网与科学上网的艺术：解锁数字时代的自由与安全">优雅上网与科学上网的艺术：解锁数字时代的自由与安全</a></li>
                     </ul>
     </div>
 </div>
@@ -143,7 +149,7 @@
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">2</span> <a href="/date/2025-09/" title="2025-09 归档">2025-09</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-09/" title="2025-09 归档">2025-09</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">5</span> <a href="/date/2025-08/" title="2025-08 归档">2025-08</a></h4>
@@ -163,8 +169,10 @@
                 <div class="midd-footer-28 align-center py-lg-4 py-3 mt-5">
                     <div class="container">
                         <p class="copy-footer-28 text-center">
-                                                <p>
+                                                <p>本站内容仅供学习与技术研究用途，无意传播或倡导任何违反法律法规的行为。在此声明：用户须自行了解所在地法律法规，合法合规使用；因使用不当产生的法律责任，与本站及作者无关；请在使用前仔细阅读本声明，继续使用即视为同意以上条款。</p>
+                    <p>
                                                 <a href="/">首页</a> |
+                                                <a href="/free-nodes/">免费节点</a> |
                                                 <a href="/paid-subscribe/">推荐机场</a> |
                                                 <a href="/news/">新闻资讯</a> |
                                                 <a href="/client.htm">客户端</a> |
@@ -173,7 +181,7 @@
                         <a href="/privacy.htm">隐私申明</a> |
                         <a href="/sitemap.xml">网站地图</a>
                     </p>
-                            VPN妈妈 订阅中文网 版权所有
+                                                VPN妈妈 订阅中文网 版权所有
                             <br />
                             Powered by WordPress
                         </p>
